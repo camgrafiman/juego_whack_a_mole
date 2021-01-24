@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin: 30px;
+}
+#grid {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	width: 618px;
+	height: 618px;
+}
+.mole {
+	background-image: url('mole.png');
+	background-size: cover;
+	cursor: pointer;
+}
+.recuadro {
+	width: 200px;
+	height: 200px;
+	border: 1px solid orangered;
+}
